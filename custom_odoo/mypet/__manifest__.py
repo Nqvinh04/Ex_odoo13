@@ -12,8 +12,10 @@
     'data': [
         'security/ir.model.access.csv',
         'view/my_pet_view.xml',
+        'wizard/batch_update.xml',
     ],
     # 'qweb': ['static/src/xml/*.xml'],
     'installable': True,
     'application': True,
+    'auto_install': False,
 }
